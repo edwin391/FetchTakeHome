@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form__field {
+  width: 30%;
+  margin: 5px;
+}
+
+.form__field label,
+.form__field input {
+  width: 100%;
+}
